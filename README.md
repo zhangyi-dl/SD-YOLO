@@ -8,7 +8,7 @@ Yi Zhang, Rufei Liu, Yuzhi Wang, Yawei Li, Junfu Fan, Guoyi Li
 
 ![0](img/0.png)
 
-​							Figure 1.Overview illustration of the proposed SD-YOLO.
+​							**Figure 1.** Overview illustration of the proposed SD-YOLO.
 
 ​	This section describes the proposed SD-YOLO method: it consists of two parts: the Stable Diffusion strategy and the Local-Global Fusion Attention (LGFA) module.
 
