@@ -132,6 +132,7 @@ Complete training by following the [lora-scripts official tutorial](https://gith
 ​							**Table 2.** Ablation Study Results: To enhance the reliability and statistical significance of the 							experimental outcomes, five independent experiments were conducted when applying different 							modules to the original dataset. The results are presented as averages.
 
 ![3](img/3.png)
+                     **Table 3.** Mean and variance performance comparison of five independent runs for each ablation experiment in manhole cover defect detection.
 
 ![4](img/4.png)
 
