@@ -46,8 +46,8 @@ The implementation of this project relies on the following excellent open-source
 
 ### Hardware Requirements
 
-- Training: GPU with ≥ 12GB VRAM recommended (e.g., RTX 3090/4090, A10);
-- Generation: GPU with ≥ 6GB VRAM recommended (e.g., RTX 3060/4060); no strict requirements for CPU/memory.
+- Training: GPU with ≥ 12GB VRAM recommended (e.g., RTX 2080Ti/3090/4090, A10);
+- Generation: GPU with ≥ 6GB VRAM recommended (e.g., RTX 2080Ti/3060/4060); no strict requirements for CPU/memory.
 
 ### Software Dependencies
 
@@ -114,8 +114,8 @@ Complete training by following the [lora-scripts official tutorial](https://gith
 
 3. Configure Generation Parameters:
 
-   - Enter Prompt (e.g., `a beautiful landscape in my-style, 8k, ultra-detailed`) and Negative Prompt (e.g., `low quality, blurry, ugly`);
-   - Adjust sampler (e.g., DPM++ 2M Karras), sampling steps (20-50 steps recommended), image resolution (e.g., 512x512, 768x768), etc.;
+   - Enter Prompt and Negative Prompt;
+   - Adjust sampler, sampling steps (20-50 steps recommended), image resolution (e.g., 512x512, 768x768), etc.;
 
 4. Click the "Generate" button to start image generation. Results will be displayed in the preview panel on the right and can be downloaded directly.
 
@@ -132,11 +132,11 @@ Complete training by following the [lora-scripts official tutorial](https://gith
 ​							**Table 2.** Ablation Study Results: To enhance the reliability and statistical significance of the 							experimental outcomes, five independent experiments were conducted when applying different 							modules to the original dataset. The results are presented as averages.
 
 ![3](img/3.png)
-                     **Table 3.** Mean and variance performance comparison of five independent runs for each ablation experiment in manhole cover defect detection.
+                     **Figure 2.** Mean and variance performance comparison of five independent runs for each ablation experiment in manhole cover defect detection.
 
 ![4](img/4.png)
 
-​							**Figure x.** Visualization plots of the features of the MCDD and MCDD with SDDA datasets. (a) and 							(b) presents the class-wise sample distribution of the dataset, with the X-axis representing 							different categories, and the Y-axis indicating the number of samples in each category, (c) and (d) 							visualize the distribution of manhole cover center positions, where the X-axis and Y-axis represent 							the normalized X-coordinate and normalized Y-coordinate of the sample center, (e) and (f) show 							the height-width distribution of the sample images, where the X-axis and Y-axis respectively 							represent the ratio of the target box height to the image height and the ratio of the target box 							width to the image width.
+​							**Figure 3.** Visualization plots of the features of the MCDD and MCDD with SDDA datasets. (a) and 							(b) presents the class-wise sample distribution of the dataset, with the X-axis representing 							different categories, and the Y-axis indicating the number of samples in each category, (c) and (d) 							visualize the distribution of manhole cover center positions, where the X-axis and Y-axis represent 							the normalized X-coordinate and normalized Y-coordinate of the sample center, (e) and (f) show 							the height-width distribution of the sample images, where the X-axis and Y-axis respectively 							represent the ratio of the target box height to the image height and the ratio of the target box 							width to the image width.
 
 ## Notes
 
