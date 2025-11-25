@@ -6,7 +6,7 @@ This is the repository for our paper:
 
 Yi Zhang, Rufei Liu, Yuzhi Wang, Yawei Li, Junfu Fan, Guoyi Li
 
-![image-20251124215610193](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20251124215610193.png)
+![image-20251124215610193](img/0.png)
 
 ​							**Figure 1.**Overview illustration of the proposed SD-YOLO.
 
