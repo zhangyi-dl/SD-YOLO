@@ -123,17 +123,17 @@ Complete training by following the [lora-scripts official tutorial](https://gith
 
 
 
-![image-20251124220854365](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20251124220854365.png)
+![1](img/1.png)
 
 ​							**Table 1.** Evaluation Results for Each Manhole Cover Defect Category
 
-![image-20251124220925340](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20251124220925340.png)
+![2](img/2.png)
 
 ​							**Table 2.** Ablation Study Results: To enhance the reliability and statistical significance of the 							experimental outcomes, five independent experiments were conducted when applying different 							modules to the original dataset. The results are presented as averages.
 
-![image-20251125155510252](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20251125155510252.png)
+![3](img/3.png)
 
-![image-20251124221001584](C:\Users\LEGION\AppData\Roaming\Typora\typora-user-images\image-20251124221001584.png)
+![4](img/4.png)
 
 ​							**Figure x.** Visualization plots of the features of the MCDD and MCDD with SDDA datasets. (a) and 							(b) presents the class-wise sample distribution of the dataset, with the X-axis representing 							different categories, and the Y-axis indicating the number of samples in each category, (c) and (d) 							visualize the distribution of manhole cover center positions, where the X-axis and Y-axis represent 							the normalized X-coordinate and normalized Y-coordinate of the sample center, (e) and (f) show 							the height-width distribution of the sample images, where the X-axis and Y-axis respectively 							represent the ratio of the target box height to the image height and the ratio of the target box 							width to the image width.
 
